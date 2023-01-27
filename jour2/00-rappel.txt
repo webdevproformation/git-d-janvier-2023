@@ -45,3 +45,35 @@ git add --all
 git add . 
 git add -A 
 git add * 
+
+git add --all 
+git commit -m "fin de la page blog" 
+git checkout master 
+git merge page-blog
+cls
+git branch -D page-blog
+
+--------------------------
+
+cas pratique 
+
+git add --all 
+git commit -m "start nouvelle branch" 
+
+=> créer une nouvelle branch  page-contact 
+=> positionner sur cette branch 
+
+=> créer le fichier contact.html 
+=> menu en entête de page 
+=> en dessous du menu formulaire 
+champ saisir l'email 
+menu déroulant pour choisir un service => commercial / informatique 
+https://getbootstrap.com/docs/5.3/forms/select/
+champ dans le quel vous pouvez saisir un commentaire multiligne 
+bouton de soumission 
+
+enregistrer la version sur la branch 
+git add --all 
+git commit -m "start nouvelle branch" 
+
+fusionner la branch page-contact  avec la branch master 

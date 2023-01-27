@@ -56,7 +56,7 @@ git branch -D page-blog
 --------------------------
 
 cas pratique 
-
+cls 
 git add --all 
 git commit -m "start nouvelle branch" 
 
@@ -77,3 +77,5 @@ git add --all
 git commit -m "start nouvelle branch" 
 
 fusionner la branch page-contact  avec la branch master 
+git checkout master 
+git merge page-contact 

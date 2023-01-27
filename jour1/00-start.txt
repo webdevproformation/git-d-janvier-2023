@@ -1,0 +1,83 @@
+support :
+https://formation.webdevpro.net/git
+login : git
+password : git
+
+note de cours de cours sur un github 
+
+------------------
+
+git / github 
+
+=> outil qui permet de VERSIONNER 
+
+=> projet informatique => écrire du code 
+=> plus votre projet va évoluer 
+=> plus ça avance plus vous arrivez sur des  fonctionnalités que vous connaissez pas 
+
+=> plus la fonctionnalités => c'est la première fois que vous entendez parler / première fois que vous expérimenter 
+=> forte chance que vous modifiez le mauvais fichier => plus rien ne marche 
+
+1ère idée 
+=> copie du dossier qui contient tout le projet => nom de version => date / fonctionnalité 
+=> permet de revenir en arrière 
+
+=> idéal pour des petits projets // 1 seul développeur 
+
+=> gros projet => Linux 
+
+millier de fichier / très nombreux developpeurs 
+
+=> 1 seule personne dédiée à réconcilier toutes les évolutions du projet 
+
+=> avant svn 
+=> Linus Torvald => git 
+
+ne pas confondre github 
+
+git outil qui permet de faire du VERSIONNING, permet de répondre à 4 questions 
+
+=> quel fichier ?
+=> qui l'a modifié ?
+=> quand il a été modifié ?
+=> pourquoi il a été modifié ?? 
+
+=> projet => pouvoir répondre à ces 4 questions sur TOUS les fichiers du projet 
+
+------------
+
+git outil que l'on l'on peut utiliser de plein de manières différentes
+
+- ligne de commande 
+- logiciel avec des boutons 
+- Visual Studio Code => module installé par défaut 
+
+
+SQlite => Visual Studio
+MySQL => phpMyAdmin
+
+-------------
+
+=> ligne de commande 
+=> module Visual Studio 
+
+
+-------------
+
+windows invite de commande
+linux shell 
+mac os terminal 
+
+outil qui permet d'exécuter des programmes 
+=> gérer l'ordinateur 
+=> recherche 
+
+=> dir => permet de savoir le contenu du dossier en cours
+=> cls => clear vider l'invite de commande 
+=> cd => change directory => changer de dossier
+=> commande cd paramètre 
+=> cd .. => remonte dans le dossier parent
+=> cd <nom-dossier> => aller dans le dossier <nom-dossier>
+=> tree 
+=> tree /F
+=> tree /A => flag 

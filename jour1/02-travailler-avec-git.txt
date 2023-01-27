@@ -1,0 +1,131 @@
+-- travailler avec sur un projet 
+-- repository = dépôt => dossier dans lequel git va stocker l'évolution de votre projet 
+
+
+-- lancer explorer windows 
+-- aller dans le dossier qui contient mon projet
+-- barre d'adresse de l'explorer => cmd au début de l'adresse (path) Espace  Enter
+-- ouvrir un terminal  dans le dossier C:\Users\stagiaire\Desktop\git>
+
+=> lancer un terminal à la racine de notre projet 
+=> dossier root de notre projet 
+
+=> git init
+
+Initialized empty Git repository in C:/Users/stagiaire/Desktop/git/.git/
+créer un repository => dossier qui va contenir le versioning de mon projet 
+
+=> DANS ce dossier quel versioning est réalisé 
+=> ne pas écrire dans ce fichier 
+=> c'est via la terminal que l'on va réaliser les modifications dans le dossier .git
+=> attention le dossier .git n'existe QUE dans les dossiers dans lesquels vous avez réaliser git init 
+
+
+=> cas pratique 
+=> créer un fichier index.html
+=> installer bootstrap 
+
+=> créer une menu (Navbar)
+=> 3 liens 
+Accueil
+Blog 
+Contact 
+
+=> suivre mon travail avec git 
+
+=> git add index.html 
+=> git commit -m "création de la barre de menu avec bootstrap"
+
+[master (root-commit) 502e1e1] création de la barre de menu avec bootstrap
+ 1 file changed, 35 insertions(+)
+ create mode 100644 index.html
+
+dans le fichier index.html
+ajouter en dessous de la barre de menu => un carousel qui contient 4 photos de votre choix 
+
+
+à la suite du diaporama
+
+deux colonnes 
+
+1ère colonne contient un  formulaire
+champ saisir un email 
+champ saisir un commentaire
+bouton de soumission 
+
+2ème colonne 
+google map 
+
+une fois fini => git add / git commit 
+
+
+git init 
+
+travaillé fichier 
+finalisé 
+
+git add / git commit 
+
+travaillé fichier 
+finalisé 
+
+git add / git commit 
+
+travaillé fichier 
+finalisé
+
+git add / git commit 
+
+gitk 
+
+git log --oneline
+
+git checkout fe7a4ba
+
+error: Your local changes to the following files would be overwritten by checkout:
+        index.html
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+
+Note: switching to 'fe7a4ba'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at fe7a4ba mise en page du diaporama
+
+git log --oneline 
+
+git checkout 1111111
+
+git checkout master 
+
+je viens de finir la page d'accueil du site 
+
+=> page blog du site => créer une branche spéciale pour la page blog 
+=> si je finis et le client content => merge 
+=> si je finis et que le client me dit non => supprimer la branch 
+
+bien sauvegarder +
+git add + git commit 
+
+=> git branch page-blog  créer une première branch dans mon projet 
+=> git checkout page-blog 
+
+Switched to branch 'page-blog'
+M       index.html
+
+=> créer le fichier blog.html 

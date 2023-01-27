@@ -1,0 +1,31 @@
+google => download git 
+=> https://git-scm.com/downloads
+
+=> téléchargé / installé 
+=> fermé le terminal 
+=> reouvrir le terminal => faire en sorte que le terminal détecte git 
+
+=> git --version
+
+git version 2.39.1.windows.1 => c'est bon git intallé sur l'ordinateur ET vous 
+avez la dernière version 
+
+=> ajouter des informations auprès de git 
+=> qui est en train de travaillé 
+
+----
+
+git config --global user.name "Malik H"
+git config --global user.email "malik.h@webdevpro.net" 
+
+-- c'est deux commandes n'ont aucune importance pour github 
+
+cls 
+
+----
+
+=> installer et configurer git pour notre ordinateur 
+
+=> fin 
+
+

@@ -60,8 +60,8 @@ cas pratique
 git add --all 
 git commit -m "start nouvelle branch" 
 
-=> créer une nouvelle branch  page-contact 
-=> positionner sur cette branch 
+=> créer une nouvelle branch    => page-contact 
+=> positionner sur cette branch => git checkout page-contact 
 
 => créer le fichier contact.html 
 => menu en entête de page 
